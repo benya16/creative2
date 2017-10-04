@@ -5,7 +5,9 @@ $(document).ready(function () {
         url: "http://api.adviceslip.com/advice",
         dataType: "json",
         success: function (data) {
-            console.log(data.slip.advice);
+            var advice = data.slip.advice;
+
+            $("#quote").text(advice);
         },
         error: function () {
             console.log("Error occurred");
