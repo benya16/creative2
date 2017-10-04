@@ -1,0 +1,16 @@
+{
+  "name": "creative2",
+  "version": "1.0.0",
+  "description": "Creative 2 assignment for CS 260",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^4.0.0-beta"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Carlisle & Tyler Rasmussen",
+  "license": "ISC"
+}
