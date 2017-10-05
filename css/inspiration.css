@@ -2,9 +2,25 @@ body {
     background: url("https://unsplash.it/1920/1080/?random&blur") no-repeat right top;
 }
 
+#quotebox {
+    height: auto;
+    width: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: dimgray;
+
+    border: 1px solid black;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+
+    position: fixed;
+    top: 50%;
+    left: 30%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
 #quote {
-    padding-right: 50px;
-    padding-left: 50px;
     font-weight: 800;
     color: #ecf0f1;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
